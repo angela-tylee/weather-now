@@ -41,3 +41,7 @@
 [W3School - Drag and Drop API](https://www.w3schools.com/html/html5_draganddrop.asp)
 
 ### Acknowledgements
+
+- 中央氣象局 > 鄉鎮預報
+- 中央氣象局 Open API
+- iOS Weather App

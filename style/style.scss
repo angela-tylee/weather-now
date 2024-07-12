@@ -1,0 +1,43 @@
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  background-image: url('../image/sunny.jpg');
+  background-position: center;
+  background-size: cover;
+  color: $white;
+  text-shadow: 2px 2px 10px $black;
+}
+
+.container {
+  padding-top: 64px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-block {
+  margin-top: 24px;
+  padding: 20px;
+  background-color: hsla(0, 0%, 100%, 0.4);
+  border-radius: 10px;
+}
+
+.search form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  gap: 10px;
+
+  select {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+  }
+}

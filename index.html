@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css" class="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-4">
+        <div class="summary">
+          <h1>My Location</h1>
+          <div><span>Tucheng district</span></div>
+          <div class="display-1"><span>26</span>C</div>
+          <div><i class="bi bi-cloud-moon"></i> <span>Mostly Cloudy</span></div>
+          <div>H:<span>32</span>C L:<span>22</span>C</div>
+        </div>
+        <div class="search weather-block">
+          <h2>Location</h2>
+          <form action="/">
+            <select id="location-select">
+              <option value="Taipei">Taipei</option>
+              <option value="New Taipei">New Taipei</option>
+            </select>
+            <select id="location-select">
+              <option value="Tucheng district">Tucheng district</option>
+              <option value="Xindian district">Xindian district</option>
+              <option value="Fengshan district">Fengshan district</option>
+            </select>
+            <button id="change-location-btn" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-xl-8">
+        <div class="weather-block">
+          <div class="tab">Tabs</div>
+          <div>Chart</div>
+        </div>
+        <div class="weather-block">
+          <table>Table</table>
+        </div>
+      </div>
+        </div>
+    </div>
+  <!-- <div class="weather"></div> -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.js' integrity='sha512-vHNHepeQWwAggJlhEk932jRS5sNdn/Nn4F+w4TpXW5dA+04qnd3e7YpfXo6auWhFG6z3FVhmScG4ovtF+qYeZw==' crossorigin='anonymous'></script>
+  <script src="./app.js"></script>
+</body>
+</html>

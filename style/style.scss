@@ -3,7 +3,8 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 body {
-  background-image: url('../image/sunny.jpg');
+  // background-image: url('../image/sunny.jpg');
+  background-color: rgb(167, 225, 254);
   background-position: center;
   background-size: cover;
   color: $white;
@@ -40,4 +41,27 @@ body {
     border: none;
     border-radius: 6px;
   }
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden; /* must-have */
+  text-align: center;
+}
+
+th, td {
+  border: solid 1px #FFFFFF;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+th, td { 
+  background-color: #ffffff7f;
+  padding: 10px 15px;
 }

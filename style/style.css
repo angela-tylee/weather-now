@@ -11967,7 +11967,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: url("../image/sunny.jpg");
+  background-color: rgb(167, 225, 254);
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -12002,4 +12002,27 @@ body {
   padding: 6px;
   border: none;
   border-radius: 6px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden; /* must-have */
+  text-align: center;
+}
+
+th, td {
+  border: solid 1px #FFFFFF;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+th, td {
+  background-color: rgba(255, 255, 255, 0.4980392157);
+  padding: 10px 15px;
 }/*# sourceMappingURL=style.css.map */
